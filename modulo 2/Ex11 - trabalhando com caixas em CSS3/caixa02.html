@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;   
+            border-radius: 10px;        
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        nav{
+            background-color:rgb(107, 104, 104);
+            padding: 3px;
+            box-shadow: -1px 6px 11px 1px black;   
+        }
+        nav > a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;
+            
+        }
+        nav > a:hover{
+            text-decoration:underline;
+            color: rgb(76, 0, 255);   
+        }
+        article > aside {
+            background-color: rgb(161, 157, 161);
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: -1px 6px 11px 1px black; 
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        h1 {
+            box-shadow: 1px 4px 11px 3px black;
+        }
+        a::before{
+            content:'♠';
+            color: blue;
+        }
+        a::after{
+            content:'♠';
+            color: black;
+        }
+        a#bacia{
+            color: red;
+        }
+        #bola{
+            color: greenyellow;
+        }
+        a#bacia:hover{
+            display: none;
+        }
+        a.prego{
+            color: blue;
+        }
+        .martelo{
+            color: coral;
+        }
+        .caro{
+            color: black;
+        }
+        #circulo{
+          height: 100px;
+          width: 100px;
+          background-color: white;
+          border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" id="bacia">esportes</a>
+            <a href="#" id="bola">youtube</a>
+            <a href="#" class="prego">linkedin</a>
+            <a href="#" class="martelo">facebook</a>
+            <a href="#" class="caro">instagram</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+        <p>Esportes Politica Tecnologia</p>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur itaque adipisci expedita totam consequatur perspiciatis sunt distinctio fuga? Animi temporibus at quam architecto unde necessitatibus sunt laboriosam nisi odit ab?</p>
+                <aside>
+                    <p>Artigo escrito por julio cesar baccin</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo julio cesar baccin</p>
+    </footer>
+    <div id="circulo"></div>
+</body>
+</html>

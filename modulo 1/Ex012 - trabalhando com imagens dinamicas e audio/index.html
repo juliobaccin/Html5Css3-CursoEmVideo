@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Podemos inserir imagens dinâmicas usando a tag picture, em seguida usamos o comando img para inserirmos a imagem de maior tamanho e em sequência a tag source:media:type, para inserirmos as imagens menores, então regularizamos o width com a maxima escala da imagem em px, as imagens devem respeitar a escala de tamanho sendo do menor para o maior.</p>
+   <picture>
+       <source media="(max-width: 700px)" srcset="imagem/p.png" type="image/png">
+       <source media="(max-width: 1000px)" srcset="imagem/m.png" type="image/png">
+       <img src="imagem/g.png" alt="">
+   </picture> 
+   <h1>Reproduzindo Audio</h1>
+   <p>Vamos aprender a reproduzir audios em HTML5.</p>
+   <audio src="midia/X2Download.com - Coolio - Gangsta's Paradise (feat. L.V.) [Official Music Video] (128 kbps).mp3" controls autoplay loop></audio>
+   <p>Para inserimos audio dentro de um site usamos a tag audio e selecionamos o arquivo dentro de uma pasta do projeto, apois isso usamos a tag controls autoplay para adicionarmos um botão de play com a musica desejada conforme o arquivo.</p>
+</body>
+</html>
