@@ -1,6 +1,6 @@
-## html-css
+## HTML5-CSS3
 
- Curso de HTML5 e CSS3 do CursoEmVideo
+ Curso de HTML5 e CSS3 do <a target="_blank" rel="external" href="https://www.cursoemvideo.com/"><strong>Curso em Video</strong></a>
 
 Estou aprendendo a criar sites e agora vou gerenciar <strong>meus repositórios!</strong>
 
