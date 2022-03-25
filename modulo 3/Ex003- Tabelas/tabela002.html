@@ -26,6 +26,20 @@
         td.num{
             text-align: right;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color:lightgrey;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even) {
+            background-color:white;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -41,10 +55,11 @@
                 TR, TD, TH 
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th class="p1">Posição</th>
-                <th class="p1">Estado</th>
+                <th class="p1" scope="col">Estado</th>
+                <th class="p1" scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -60,10 +75,46 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
             </tr>
+                        <tr>
+                <td>Rio grande do Sul</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Curitiba</td>
+                <td class="num">21.169.791</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">17.264.943</td>
+            </tr>
+                        <tr>
+                <td>Santa Catarina</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">21.169.791</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">17.264.943</td>
+            </tr>
+                        <tr>
+                <td>Espirito Santo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">21.169.791</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">17.264.943</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th class="p1">Total de habitantes</th>
+                <th class="p1" scope="row">Total de habitantes</th>
                 <td class="num">84.353.783</td>
             </tr>
         </tfoot>
