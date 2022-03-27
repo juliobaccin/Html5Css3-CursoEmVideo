@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.nome{
+            background-color: chartreuse;
+        }
+        col.sexo{
+            background-color: blue;
+        }
+        col.idade{
+            background-color: burlywood;
+        }
+        col.profissao{
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade" span="2">
+            <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+
+        <tr>
+            <td>pedro</td>
+            <td>M</td>
+            <td>30</td>
+            <td>padeiro</td>
+        </tr>
+
+
+        <tr>
+            <td>tiago</td>
+            <td>M</td>
+            <td>28</td>
+            <td>mecanico</td>
+        </tr>
+
+
+        <tr>
+            <td>fernanda</td>
+            <td>F</td>
+            <td>22</td>
+            <td>advogada</td>
+        </tr>
+
+        <tr>
+            <td>renata</td>
+            <td>F</td>
+            <td>42</td>
+            <td>chefe de cozinha</td>
+        </tr>
+    </table>
+</body>
+
+</html>
