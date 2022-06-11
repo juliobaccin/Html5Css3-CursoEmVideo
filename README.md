@@ -12,5 +12,5 @@ Estou aprendendo a criar sites e agora vou gerenciar <strong>meus repositórios!
 </div>
 
 <div>
-<img alt="julio-HTML" height="" width="" src=https://user-images.githubusercontent.com/101740786/159775856-0a774a67-a233-4ba2-b801-e16556ee3784.png
+<img alt="julio-HTML" height="" width="" src=https://user-images.githubusercontent.com/101740786/159775856-0a774a67-a233-4ba2-b801-e16556ee3784.png>
 </div>
